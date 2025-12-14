@@ -430,7 +430,7 @@ The login page features a clean, modern design with a purple gradient background
 - "Register here" link for new users
 - Responsive design
 
-![Login Page](https://github.com/Akshit9604/sweet-shop/blob/main/screenshots/login.png)
+![Login Page](./screenshots/login.png)
 
 ### 2. Dashboard (User View)
 The dashboard displays available sweets with search and filter functionality.
@@ -446,7 +446,7 @@ The dashboard displays available sweets with search and filter functionality.
   - Purchase button
 - Logout button
 
-![Dashboard](https://github.com/Akshit9604/sweet-shop/blob/main/screenshots/dashboard.png)
+![Dashboard](./screenshots/dashboard.png)
 
 ### 3. Admin Panel
 The admin panel provides full inventory management capabilities.
@@ -459,7 +459,9 @@ The admin panel provides full inventory management capabilities.
   - Action buttons: Edit, Restock, Delete
 - Logout button
 
-![Admin Panel](https://github.com/Akshit9604/sweet-shop/blob/main/screenshots/admin.png)
+![Admin Panel](./screenshots/admin.png)
+
+> **Note:** If screenshots are not visible, please add the image files (`login.png`, `dashboard.png`, `admin.png`) to the `screenshots/` directory. See [ADD_SCREENSHOTS.md](./ADD_SCREENSHOTS.md) for instructions.
 
 ---
 
