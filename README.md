@@ -2,9 +2,13 @@
 
 A full-stack web application for managing a sweet shop inventory, built with **Spring Boot 3** (Java 17) and **React**. Features include user authentication, sweet inventory management, search functionality, purchase system, and an admin panel.
 
-## 🔗 Repository
+## 🔗 Repository & Live Application
 
 **GitHub Repository:** [https://github.com/Akshit9604/sweet-shop](https://github.com/Akshit9604/sweet-shop)
+
+**🌐 Live Application (Railway):** [https://web-production-44b0c.up.railway.app](https://web-production-44b0c.up.railway.app)
+
+**📊 Dashboard:** [https://web-production-44b0c.up.railway.app/dashboard](https://web-production-44b0c.up.railway.app/dashboard)
 
 ---
 
@@ -816,6 +820,16 @@ For issues, questions, or contributions:
 ---
 
 ## 🎯 Quick Start Summary
+
+### Option 1: Use Live Application (Easiest)
+
+**🌐 Visit the live application:**
+- **Main URL:** [https://web-production-44b0c.up.railway.app](https://web-production-44b0c.up.railway.app)
+- **Dashboard:** [https://web-production-44b0c.up.railway.app/dashboard](https://web-production-44b0c.up.railway.app/dashboard)
+
+No setup required! Just register and start using.
+
+### Option 2: Run Locally
 
 1. **Clone:** `git clone https://github.com/Akshit9604/sweet-shop.git`
 2. **Backend:** `mvn spring-boot:run`
