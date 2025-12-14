@@ -1,0 +1,36 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8081:8081"
+    environment:
+      - SPRING_PROFILES_ACTIVE=prod
+      - DATABASE_URL=jdbc:mysql://db:3306/sweetshop?useSSL=false&serverTimezone=UTC
+      - DB_USERNAME=sweetshop
+      - DB_PASSWORD=sweetshop123
+      - PORT=8081
+    depends_on:
+      - db
+    restart: unless-stopped
+
+  db:
+    image: mysql:8.0
+    environment:
+      - MYSQL_ROOT_PASSWORD=rootpassword
+      - MYSQL_DATABASE=sweetshop
+      - MYSQL_USER=sweetshop
+      - MYSQL_PASSWORD=sweetshop123
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+    restart: unless-stopped
+
+volumes:
+  mysql_data:
+
+

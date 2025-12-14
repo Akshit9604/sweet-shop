@@ -1,0 +1,16 @@
+CREATE TABLE users (
+    id CHAR(36) PRIMARY KEY,
+    username VARCHAR(100) NOT NULL UNIQUE,
+    password VARCHAR(255) NOT NULL,
+    role VARCHAR(20) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE sweets (
+    id CHAR(36) PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    category VARCHAR(100),
+    price DECIMAL(10,2) NOT NULL,
+    quantity INT NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
